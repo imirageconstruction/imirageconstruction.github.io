@@ -1,0 +1,71 @@
+﻿body {
+    color: black;
+    font-size: 20px;
+}
+
+#logoImage {
+    display: inline;
+    margin: -13px 0 0 0;
+}
+
+.logoImirageNormalText {
+    font-size: 30px;
+}
+
+.logoImirageUpperCaseText {
+    font-size: 24px;
+}
+
+#logoIncText {
+    font-size: 12px;
+}
+
+#logoConstructionText {
+    font-size: 18px;
+}
+
+@media (max-width: 325px) and (orientation: portrait), (max-width: 380px) and (orientation: portrait) {
+    #logoContainer {
+        padding-left: 0;
+    }
+
+    #logoImage {
+        height: 35px;
+    }
+
+    .logoImirageNormalText {
+        font-size: 22px;
+    }
+
+    .logoImirageUpperCaseText {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 380px) and (orientation: portrait) {
+    #logoConstructionText {
+        font-size: 12px;
+    }
+
+    #logoIncText {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 325px) and (orientation: portrait) {
+    #logoConstructionText {
+        font-size: 10px;
+    }
+
+    #logoIncText {
+        font-size: 6px;
+    }
+}
+
+.portfolio-box {
+    cursor: zoom-in;
+}
+
+a:hover {
+    text-decoration: none
+}
